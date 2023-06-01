@@ -26,7 +26,7 @@ function App() {
       <img src={set} className='set'></img>
 
 
-      <p className='name'>Arthur Guerin</p>
+      <p className='name'>Arthur Guerin PRANK</p>
       <div className='blurIdea'>
 
       <p className='quoteUp'>"</p>
