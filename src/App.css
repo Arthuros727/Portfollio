@@ -1,0 +1,135 @@
+.imgbg{
+  margin-top: -15vw;
+  height: 100%;
+  width: 100%;
+  /* filter: brightness(20%); */
+  filter: blur(0.5px) brightness(90%) ;
+}
+html, .blur{
+  background-color: rgba(39,40,61,255);
+  overflow-x: hidden;
+  /* overflow: hidden; */
+}
+.premier{
+  
+  text-align: center;
+}
+
+.job{
+  font-family: 'Lobster', cursive;  
+  font-size: 2vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 10vw;
+  left: 10vw;
+  color: white;
+}
+.html{
+  /* height: 100%; */
+  width: 70%;
+  position: absolute;
+  left: 0%;
+  top: 60vw;
+}
+
+.htmlv{
+  /* height: 100%; */
+  width: 70%;
+  position: absolute;
+  left: 33.5%;
+  top: 90vw;
+}
+
+.css{
+  /* height: 100%; */
+  width: 70%;
+  position: absolute;
+  left: -28%;
+  top: 120vw;
+}
+
+.set{
+  /* height: 100%; */
+  width: 70%;
+  position: absolute;
+  left: 33.5%;
+  top: 120vw;
+}
+.blurIdea{
+  position: absolute;
+  top: 25vw;
+  left: 26vw;
+  /* padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 4vw;
+  padding-right: 4vw; */
+
+  width: 52.5vw;
+  height: 13.8vw;
+  backdrop-filter: blur(3px);
+  /* backdrop-filter: brightness(95%); */
+  /* flex-shrink: 0; */
+  /* margin: 20px; */
+  /* height: calc(150px + 6vw); */
+  /* width: calc(150px + 6vw); */
+  /* border:  solid transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  box-sizing: border-box; */
+  box-shadow: 0 0 5px 5px rgba(71, 56, 95, 0.5);
+  /* height: 500px; */
+}
+
+.quoteUp{
+ 
+  position: absolute;
+  top: -4vw;
+  left: -1vw;
+  color: rgb(255, 255, 255);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 10vw;
+}
+.textQuote{
+ 
+  /* position: absolute;
+  top: 25vw;
+  left: 33vw; */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+  color: rgb(255, 255, 255);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 4vw;
+}
+.quoteDown{
+ 
+  position: absolute;
+  top: 6.2vw;
+  left: 47.5vw;
+  color: rgb(255, 255, 255);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 10vw;
+}
+
+.wave{
+  height: 35%;
+  transform: rotate(-5deg);
+  width: 120%;
+  position: absolute;
+  left: -18%;
+  top: 47%;
+  filter: contrast(100%);
+}
+.name{
+  
+    /* transform: translate(-50%, -50%); */
+  color: white;    font-family: "Oswald";
+  font-size: 4vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 5vw;
+  left: 10vw;
+  color: white;
+  font-family: "Oswald";
+  /* font-size: 300%; */
+}
