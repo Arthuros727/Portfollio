@@ -52,10 +52,11 @@ function App() {
         <div className='text'>
         <img src={c} className='c'></img>
         <img src={trinity} className='trinity'></img>
-          <p>Arthur Guerin, Etudiant à la Web@cademie (by epitech), j'ai pu aquierire des <br></br> competences
-            en PHP(natif,Symfony,Laravel), JS (natif,react,jquerry), mysql,<br></br> docker, nodejs, scss! 
-            Ils m'ont aussi apporter le savoir faire en travail d'equipe <br></br>grace a different gros projet de groupe
-            telle que une reproduction de Twitter,<br></br> d'un site de ecommerce, ou encore de Spotify !
+          <p>Arthur Guérin, étudiant à la Web@cademie (by Epitech), j'ai pu acquérir des <br></br>
+           compétences en PHP (natif, Symfony, Laravel), JS (natif, React, jQuery), MySQL,<br></br>
+            Docker, Node.js, et SCSS ! Ils m'ont aussi apporté le savoir-faire en travail d'équipe
+            <br></br>grâce à différents gros projets de groupe tels qu'une reproduction de Twitter<br></br>
+             d'un site de ecommerce, ou encore de Spotify !
           </p>
         </div>
       </div>
