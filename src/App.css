@@ -141,13 +141,23 @@ html, .blur{
   box-shadow: 0 0 5px 5px rgba(71, 56, 95, 0.5);
 }
 
-.text p {
+.txt1{
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   font-family: "Oswald";
   font-size: 1.5vw;
   padding: 1%;
 }
+.txt2{
+  position: absolute;
+  left: 14vw;
+  top: 17vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Oswald";
+  font-size: 1.5vw;
+  padding: 1%;
+}
+
 
 .c{
   position: absolute;
@@ -158,7 +168,7 @@ html, .blur{
 
 .trinity{
   position: absolute;
-  left: 40vw;
+  left: 40.5vw;
   top: -3vw;
   width: 22vw;
 

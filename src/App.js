@@ -39,7 +39,7 @@ function App() {
 
       <p className='job'>Web Developpeur</p>
       <a href='#e1' ><p className='about'>A propos de moi</p></a>
-      <p className='project'>Mes Projects</p>
+      <p className='project'>Mes Projets</p>
       <p className='call'>Me contacter</p>
 
 
@@ -52,11 +52,13 @@ function App() {
         <div className='text'>
         <img src={c} className='c'></img>
         <img src={trinity} className='trinity'></img>
-          <p>Arthur Guérin, étudiant à la Web@cademie (by Epitech), j'ai pu acquérir des <br></br>
+          <p className='txt1'>Arthur Guérin, étudiant à la Web@cademie (by Epitech), j'ai pu acquérir des <br></br>
            compétences en PHP (natif, Symfony, Laravel), JS (natif, React, jQuery), MySQL,<br></br>
             Docker, Node.js, et SCSS ! Ils m'ont aussi apporté le savoir-faire en travail d'équipe
             <br></br>grâce à différents gros projets de groupe tels qu'une reproduction de Twitter<br></br>
              d'un site de ecommerce, ou encore de Spotify !
+          </p>
+          <p className='txt2'>Leur devise est : Apprendre à apprendre, ce qui m'a aidé à me développer de mon côté et avec l'aide de l'equipe pedagogique (ils me donnent parfois des sujets) d'apprendre d'autres langages qui m'intéressent comme le C++ ou encore le C# (avec Unity), car j'aspire dans le futur à développer un jeu vidéo ! (meme si je fais deja quelque prototype !)
           </p>
         </div>
       </div>
