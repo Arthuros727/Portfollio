@@ -158,6 +158,51 @@ html, .blur{
   padding: 1%;
 }
 
+#p4{
+  filter: blur(3px) brightness(90%);
+  transition: transform .3s;
+}
+
+#p4:hover {
+  filter: blur(0px) brightness(100%);
+  transform: scale(1.2);
+}
+
+#p4:hover  .carou1 {
+  filter: blur(0px) brightness(100%);
+  transform: scale(1.2);
+  color: red;
+}
+.carou1{
+  transition: transform .3s;
+}
+/* #carou1:#p4{
+  transform: scale(1.2);
+} */
+
+.mesproj{
+  color: white;
+}
+
+.projets{
+  position: absolute;
+  top: 95vw;
+  left: 40vw;
+  font-size: 4vw;
+  font-family: "Oswald";
+}
+
+.card1{
+  width: 50%;
+  position: absolute;
+  left: 27vw;
+  top: 85vw; 
+
+  /* position: absolute;
+  left: 25vw;
+  top: 85vw; */
+}
+
 
 .c{
   position: absolute;

@@ -10,11 +10,73 @@ import css from './css.png';
 import set from './set.png';
 import c from './C.png';
 import trinity from './trinity.png';
+import Carousel from 'react-bootstrap/Carousel';
+import imgp4 from './puissance4.png';
 
 
 import Image from 'react-bootstrap/Image'
 import wave from './wave4.png'
 
+
+function Carou() {
+  return (
+    <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          id='p4'
+          src={imgp4}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3 className='carou1'>Puissance 4</h3>
+          <p className='carou1'>Grille modulable, customisation.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={c}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={c}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
+}
+function Card1() {
+  return (
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+  );
+}
 function App() {
   return (
     
@@ -60,6 +122,20 @@ function App() {
           </p>
           <p className='txt2'>Leur devise est : Apprendre à apprendre, ce qui m'a aidé à me développer de mon côté et avec l'aide de l'equipe pedagogique (ils me donnent parfois des sujets) d'apprendre d'autres langages qui m'intéressent comme le C++ ou encore le C# (avec Unity), car j'aspire dans le futur à développer un jeu vidéo ! (meme si je fais deja quelque prototype !)
           </p>
+        </div>
+      </div>
+
+      <div className='mesproj'>
+        <p className='projets'>Quelque Projets</p>
+        <div className='borderp'>
+          <div className='card1'>
+          <Carou />
+
+          </div>
+          {/* <Card1 />
+          <Card1 />
+          <Card1 /> */}
+
         </div>
       </div>
     </div>
