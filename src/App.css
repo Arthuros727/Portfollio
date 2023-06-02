@@ -20,9 +20,57 @@ html, .blur{
   font-size: 2vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 10vw;
-  left: 10vw;
+  top: 6vw;
+  left: 2vw;
   color: white;
+}
+
+.about{
+  /* font-family: 'Lobster', cursive;   */
+  font-size: 2vw;
+  transition: transform .2s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 10vw;
+  border-bottom: solid white 1px;
+  left: 2vw;
+  color: white;
+}
+
+.about:hover{
+  transform: scale(1.2);
+}
+
+.project{
+  /* font-family: 'Lobster', cursive;   */
+  font-size: 2vw;
+  transition: transform .2s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 13.5vw;
+  border-bottom: solid white 1px;
+  left: 2vw;
+  color: white;
+}
+
+.project:hover{
+  transform: scale(1.2);
+}
+
+.call{
+  /* font-family: 'Lobster', cursive;   */
+  font-size: 2vw;
+  transition: transform .2s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 17vw;
+  border-bottom: solid white 1px;
+  left: 2vw;
+  color: white;
+}
+
+.call:hover{
+  transform: scale(1.2);
 }
 .html{
   /* height: 100%; */
@@ -81,6 +129,41 @@ html, .blur{
   /* height: 500px; */
 }
 
+.text{
+  position: absolute;
+  top: 60vw;
+  left: 23vw;
+  width: 60vw;
+  height: 30vw;
+  backdrop-filter: blur(3px) brightness(90%);
+      /* backdrop-filter: brightness(80%); */
+
+  box-shadow: 0 0 5px 5px rgba(71, 56, 95, 0.5);
+}
+
+.text p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  font-family: "Oswald";
+  font-size: 1.5vw;
+  padding: 1%;
+}
+
+.c{
+  position: absolute;
+  left: -3vw;
+  top: 9.5vw;
+  width: 20vw;
+}
+
+.trinity{
+  position: absolute;
+  left: 40vw;
+  top: -3vw;
+  width: 22vw;
+
+}
+
 .quoteUp{
  
   position: absolute;
@@ -127,9 +210,21 @@ html, .blur{
   font-size: 4vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 5vw;
-  left: 10vw;
+  top: 1vw;
+  left: 2vw;
   color: white;
   font-family: "Oswald";
   /* font-size: 300%; */
+}
+
+.aboutme{
+    /* backdrop-filter: brightness(95%); */
+
+  color: white;
+}
+.aboutmetext{
+  font-size: 4vw;
+  font-family: "Oswald";
+  position: absolute;
+  left: 42vw;
 }
