@@ -13,6 +13,7 @@ import trinity from './trinity.png';
 import Carousel from 'react-bootstrap/Carousel';
 import imgp4 from './puissance4.png';
 import om from './om.png';
+import mvc from './mvc.png';
 
 
 import Image from 'react-bootstrap/Image'
@@ -49,15 +50,16 @@ function Carou() {
       </Carousel.Item>
       <Carousel.Item>
         <img
+        id='p4'
           className="d-block w-100"
-          src={c}
+          src={mvc}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3 className='carou1'>Third slide label</h3>
+          <h3 className='carou1'></h3>
           <p className='carou1'>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Reproduction d'un framework php mvc from scratch
           </p>
         </Carousel.Caption>
       </Carousel.Item>
