@@ -159,22 +159,23 @@ html, .blur{
 }
 
 #p4{
-  filter: blur(3px) brightness(90%);
+  filter: blur(0.5px) brightness(85%);
   transition: transform .3s;
 }
 
 #p4:hover {
   filter: blur(0px) brightness(100%);
+  transform: scale(1.04);
+}
+
+
+#p4:hover + .carousel-caption .carou1 {
   transform: scale(1.2);
 }
 
-#p4:hover  .carou1 {
-  filter: blur(0px) brightness(100%);
-  transform: scale(1.2);
-  color: red;
-}
-.carou1{
-  transition: transform .3s;
+.carou1 {
+  font-size: 2vw;
+  transition: transform 0.3s;
 }
 /* #carou1:#p4{
   transform: scale(1.2);

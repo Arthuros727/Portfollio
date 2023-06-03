@@ -12,6 +12,7 @@ import c from './C.png';
 import trinity from './trinity.png';
 import Carousel from 'react-bootstrap/Carousel';
 import imgp4 from './puissance4.png';
+import om from './om.png';
 
 
 import Image from 'react-bootstrap/Image'
@@ -35,14 +36,15 @@ function Carou() {
       </Carousel.Item>
       <Carousel.Item>
         <img
+        id='p4'
           className="d-block w-100"
-          src={c}
+          src={om}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='carou1'>Jeu de Rythme (js)</h3>
+          <p className='carou1'>Reproduction du jeu : Osu! mania</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -53,8 +55,8 @@ function Carou() {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
+          <h3 className='carou1'>Third slide label</h3>
+          <p className='carou1'>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
