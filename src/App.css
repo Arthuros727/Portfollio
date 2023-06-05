@@ -115,16 +115,7 @@ html, .blur{
   width: 52.5vw;
   height: 13.8vw;
   backdrop-filter: blur(3px);
-  /* backdrop-filter: brightness(95%); */
-  /* flex-shrink: 0; */
-  /* margin: 20px; */
-  /* height: calc(150px + 6vw); */
-  /* width: calc(150px + 6vw); */
-  /* border:  solid transparent;
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  background-size: cover;
-  box-sizing: border-box; */
+
   box-shadow: 0 0 5px 5px rgba(71, 56, 95, 0.5);
   /* height: 500px; */
 }
@@ -170,7 +161,7 @@ html, .blur{
 
 
 #p4:hover + .carousel-caption .carou1 {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .carou1 {
@@ -223,8 +214,8 @@ html, .blur{
 .quoteUp{
  
   position: absolute;
-  top: -4vw;
-  left: -1vw;
+  top: -3vw;
+  left: 0vw;
   color: rgb(255, 255, 255);
   font-family: 'Space Grotesk', sans-serif;
   font-size: 10vw;
@@ -283,4 +274,104 @@ html, .blur{
   font-family: "Oswald";
   position: absolute;
   left: 42vw;
+}
+@media only screen and (max-width:1000px){
+
+  .job{
+    font-family: 'Lobster', cursive;  
+    font-size: 10vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 6vw;
+    left: 17vw;
+    color: white;
+  }
+
+  .name{
+  
+    /* transform: translate(-50%, -50%); */
+  color: white;    font-family: "Oswald";
+  font-size: 10vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: -3vw;
+  left: 27vw;
+  color: white;
+  font-family: "Oswald";
+  /* font-size: 300%; */
+}
+
+.about{
+  /* font-family: 'Lobster', cursive;   */
+  font-size: 3vw;
+  transition: transform .2s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 18.5vw;
+  border-bottom: solid white 1px;
+  left: 20vw;
+  color: white;
+}
+
+.project{
+  /* font-family: 'Lobster', cursive;   */
+  font-size: 3vw;
+  transition: transform .2s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 18.5vw;
+  border-bottom: solid white 1px;
+  left: 47vw;
+  color: white;
+}
+
+.call{
+  /* font-family: 'Lobster', cursive;   */
+  font-size: 3vw;
+  transition: transform .2s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 18.5vw;
+  border-bottom: solid white 1px;
+  left: 67vw;
+  color: white;
+}
+
+.textQuote{
+ 
+  /* position: absolute;
+  top: 25vw;
+  left: 33vw; */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+  color: rgb(255, 255, 255);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 7vw;
+}
+
+.blurIdea{
+  position: absolute;
+  top: 25vw;
+  left: 9vw;
+  /* padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 4vw;
+  padding-right: 4vw; */
+
+  width: 83vw;
+  height: 21.5vw;
+  backdrop-filter: blur(3px);
+
+  box-shadow: 0 0 5px 5px rgba(71, 56, 95, 0.5);
+  /* height: 500px; */
+}
+.quoteDown{
+ 
+  position: absolute;
+  top: 14vw;
+  left: 78vw;
+  color: rgb(255, 255, 255);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 10vw;
+}
 }
