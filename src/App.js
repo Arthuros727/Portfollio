@@ -26,43 +26,34 @@ function Carte() {
 
     <div className='carte1'>
 
-    <Card style={{ width: '15rem', backgroundColor:"#47476d" }}>
+    <Card style={{ width: '30vw',heigh: '30vw', backgroundColor:"#47476d" }}>
       <Card.Img variant="top" src={imgp4} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Title>Puissance <br></br>4</Card.Title>
+       
+        <Button variant="primary" className='but'>Go</Button>
       </Card.Body>
     </Card>
     </div>
     <div className='carte2'>
 
-    <Card style={{ width: '15rem', backgroundColor:"#47476d" }}>
+    <Card style={{ width: '30vw',heigh: '30vw', backgroundColor:"#47476d" }}>
       <Card.Img variant="top" src={om} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Title>Jeu : <br></br>Osu!Mania</Card.Title>
+        
+        <Button variant="primary" className='but'>Go</Button>
       </Card.Body>
     </Card>
     </div>
     <div className='carte3'>
 
-<Card style={{ width: '15rem', backgroundColor:"#47476d" }}>
+<Card style={{ width: '30vw',heigh: '30vw', backgroundColor:"#47476d" }}>
   <Card.Img variant="top" src={mvc} />
   <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the
-      bulk of the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Card.Title>Framework <br></br>MVC</Card.Title>
+    
+    <Button variant="primary" className='but'>Go</Button>
   </Card.Body>
 </Card>
 </div>

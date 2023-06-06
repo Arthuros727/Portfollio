@@ -417,11 +417,17 @@ html, .blur{
 }
 .carte1{
   /* color: black; */
+  /* font-size: 3vw; */
+  background-color: aqua;
   position: absolute;
   top: 35vw;
   left: -22vw;
+  text-align: center;
 }
+
 .carte2{
+  text-align: center;
+
   /* display: none; */
   position: absolute;
   top: 35vw;
@@ -429,16 +435,34 @@ html, .blur{
 }
 
 .carte3{
+  text-align: center;
+
   /* display: none; */
   position: absolute;
   top: 35vw;
   left: 41vw;
+  /* font-size: 5vw; */
+
+}
+.card-title{
+  color: red;
+  width: 26vw;
+  position: relative;
+  left: 0vw;
 }
 
-.carr{
-  position: absolute;
-  padding: 5v;
+
+/* .carr{
+  font-size: 1px;
+} */
+
+.but{
+  width: 20vw;
+  padding-left: 5vw;
+  font-size: 2vw;
 }
+
+
 
 
 
