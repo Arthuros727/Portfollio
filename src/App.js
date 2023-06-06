@@ -14,12 +14,61 @@ import Carousel from 'react-bootstrap/Carousel';
 import imgp4 from './puissance4.png';
 import om from './om.png';
 import mvc from './mvc.png';
+// import Card from 'react-bootstrap/Card';
 
 
 import Image from 'react-bootstrap/Image'
 import wave from './wave4.png'
 
+function Carte() {
+  return (
+    <div className='carr'>
 
+    <div className='carte1'>
+
+    <Card style={{ width: '15rem', backgroundColor:"#47476d" }}>
+      <Card.Img variant="top" src={imgp4} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+    </div>
+    <div className='carte2'>
+
+    <Card style={{ width: '15rem', backgroundColor:"#47476d" }}>
+      <Card.Img variant="top" src={om} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+    </div>
+    <div className='carte3'>
+
+<Card style={{ width: '15rem', backgroundColor:"#47476d" }}>
+  <Card.Img variant="top" src={mvc} />
+  <Card.Body>
+    <Card.Title>Card Title</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the
+      bulk of the card's content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
+</div>
+    </div>
+  );
+}
 function Carou() {
   return (
     <Carousel>
@@ -134,6 +183,10 @@ function App() {
         <div className='borderp'>
           <div className='card1'>
           <Carou className="abc"/>
+          
+
+          <Carte />
+         
 
           </div>
           {/* <Card1 />
