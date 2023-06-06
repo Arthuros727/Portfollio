@@ -374,4 +374,59 @@ html, .blur{
   font-family: 'Space Grotesk', sans-serif;
   font-size: 10vw;
 }
+
+.text{
+  position: absolute;
+  top: 60vw;
+  left: 10vw;
+  width: 80vw;
+  height: 40vw;
+  backdrop-filter: blur(3px) brightness(90%);
+      /* backdrop-filter: brightness(80%); */
+
+  box-shadow: 0 0 5px 5px rgba(71, 56, 95, 0.5);
+}
+.trinity{
+  position: absolute;
+  left: 55vw;
+  top: -4vw;
+  width: 27vw;
+
+}
+.c{
+  position: absolute;
+  left: -3.5vw;
+  top: 16vw;
+  width: 23vw;
+}
+.txt1{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  font-family: "Oswald";
+  font-size: 2vw;
+  padding: 1%;
+}
+.txt2{
+  position: absolute;
+  left: 15vw;
+  top: 22vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Oswald";
+  font-size: 2vw;
+  padding: 1%;
+}
+
+
+
+.carousel{
+  display: none;
+  
+}
+.projets{
+  position: absolute;
+  top: 100vw;
+  left: 21vw;
+  font-size: 10vw;
+  font-family: "Oswald";
+}
 }

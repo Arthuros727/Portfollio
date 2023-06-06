@@ -133,7 +133,7 @@ function App() {
         <p className='projets'>Quelque Projets</p>
         <div className='borderp'>
           <div className='card1'>
-          <Carou />
+          <Carou className="abc"/>
 
           </div>
           {/* <Card1 />
