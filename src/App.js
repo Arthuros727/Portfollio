@@ -189,6 +189,9 @@ function App() {
 
         </div>
       </div>
+      <div className='mecontacter'>
+        <p className='contact'>Me Contacter</p>
+      </div>
     </div>
   );
 }

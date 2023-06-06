@@ -183,7 +183,15 @@ html, .blur{
   font-size: 4vw;
   font-family: "Oswald";
 }
+.contact{
+  color: white;
+  position: absolute;
+  top: 140vw;
+  left: 40vw;
+  font-size: 4vw;
+  font-family: "Oswald";
 
+}
 .card1{
   width: 50%;
   position: absolute;
