@@ -171,7 +171,9 @@ html, .blur{
 /* #carou1:#p4{
   transform: scale(1.2);
 } */
-
+.for{
+  color: white;
+}
 .mesproj{
   color: white;
 }
