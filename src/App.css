@@ -569,4 +569,62 @@ textarea{
   font-size: 10vw;
   font-family: "Oswald";
 }
+
+.for{
+  font-size: 5vw;
+  position: absolute;
+  top: 200vw;
+  left:45vw;
+  color: rgb(147, 61, 61);
+  
+ 
+}
+
+input{
+  position: relative;
+  background-color: rgba(71, 56, 95, 0.5);
+  border: rgba(101, 83, 130, 0.5) solid 1px;
+  color: white;
+  /* left: -2vw; */
+  /* width: 30vw; */
+}
+
+textarea{
+  /* position: absolute; */
+  position: relative;
+  background-color: rgba(71, 56, 95, 0.5);
+  border: rgba(101, 83, 130, 0.5) solid 1px;
+  color: white;
+  width: 30vw;
+  left: -8vw;
+  resize: none;
+}
+.a{
+  resize: none;
+  height: 7vw;
+  text-align: center;
+}
+.b{
+  height: 10vw;
+}
+#mail{
+  width: 30vw;
+}
+
+.send{
+  /* position: relative; */
+  margin-left: 1.5vw;
+  margin-top: 2vw;
+  
+}
+
+.contact{
+  color: white;
+  position: absolute;
+  top: 180vw;
+  left: 27vw;
+  font-size: 10vw;
+  font-family: "Oswald";
+
+}
 }
