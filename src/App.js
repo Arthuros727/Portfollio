@@ -193,25 +193,25 @@ function App() {
         <p className='contact'>Me Contacter</p>
         <form action="https://public.herotofu.com/v1/49fdcbe0-046d-11ee-b0a7-9f000c4c1540" method="post" accept-charset="UTF-8" className='for'>
   <div>
-    <label for="name">Your Name</label>
-    <input name="Name" id="name" type="text" required />
+    <label for="name" className='label'>Your Name</label>
+    <textarea className='a' name="Name" id="name" type="text" required />
   </div>
   <div>
-    <label for="email">Your Email</label>
-    <input name="Email" id="email" type="email" required  />
+    <label for="email" className='label'>Your Email</label>
+    <textarea className='a' name="Email" id="email" type="email" required  />
   </div>
   <div>
-    <label for="email">Objet</label>
-    <input name="object" id="object" type="textarea" required  />
+    <label for="email" className='label'>Objet</label>
+    <textarea className='a' name="object" id="object" type="textarea" required  />
   </div>
   <div>
-    <label for="email">Mail</label>
-    <textarea name="mail" id="mail" type="textarea" required  />
+    <label for="email" className='label'>Mail</label>
+    <textarea className='b' name="mail" id="mail" type="textarea" required  />
   </div>
   <div>
-    <input type="submit" value="send" />
+    <input type="submit" value="send" className='send'/>
     <div >
-      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+      <input hidden type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
     </div>
   </div>
 </form>

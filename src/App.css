@@ -172,7 +172,63 @@ html, .blur{
   transform: scale(1.2);
 } */
 .for{
+  position: absolute;
+  top: 147vw;
+  left:43vw;
+  color: rgb(147, 61, 61);
+  
+ 
+}
+
+input{
+  position: relative;
+  background-color: rgba(71, 56, 95, 0.5);
+  border: rgba(101, 83, 130, 0.5) solid 1px;
   color: white;
+  /* left: -2vw; */
+  /* width: 30vw; */
+}
+
+textarea{
+  /* position: absolute; */
+  position: relative;
+  background-color: rgba(71, 56, 95, 0.5);
+  border: rgba(101, 83, 130, 0.5) solid 1px;
+  color: white;
+  width: 30vw;
+  left: -8vw;
+  resize: none;
+}
+.a{
+  resize: none;
+  height: 2vw;
+  text-align: center;
+}
+.b{
+  height: 10vw;
+}
+#mail{
+  width: 30vw;
+}
+
+.send{
+  /* position: relative; */
+  margin-left: 5.5vw;
+  margin-top: 2vw;
+  
+}
+
+.send:hover{
+
+  background-color: white;
+  border: black 1px solid;
+  color: black;
+}
+.label{
+  color:rgb(255, 255, 255);
+  margin-left: -16vw;
+  text-align: center;
+  display:block;
 }
 .mesproj{
   color: white;
@@ -442,25 +498,28 @@ html, .blur{
   padding: 1%;
 }
 .carte1{
+  display: block;
   /* color: black; */
   /* font-size: 3vw; */
   /* background-color: aqua; */
   position: absolute;
   top: 35vw;
-  left: -24vw;
+  left: -23vw;
   text-align: center;
 }
 
 .carte2{
+  display: block;
   text-align: center;
 
   /* display: none; */
   position: absolute;
   top: 35vw;
-  left: 8.5vw;
+  left: 9vw;
 }
 
 .carte3{
+  display: block;
   text-align: center;
 
   /* display: none; */
