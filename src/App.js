@@ -29,7 +29,7 @@ function Carte() {
     <Card style={{ width: '30vw',heigh: '30vw', backgroundColor:"#47476d" }}>
       <Card.Img variant="top" src={imgp4} />
       <Card.Body>
-        <Card.Title>Puissance <br></br>4</Card.Title>
+      <h5 className='col'>Puissance <br></br>4</h5>
        
         <Button variant="primary" className='but'>Go</Button>
       </Card.Body>
@@ -40,7 +40,7 @@ function Carte() {
     <Card style={{ width: '30vw',heigh: '30vw', backgroundColor:"#47476d" }}>
       <Card.Img variant="top" src={om} />
       <Card.Body>
-        <Card.Title>Jeu : <br></br>Osu!Mania</Card.Title>
+      <h5 className='col'>Jeu : <br></br>Osu!Mania</h5>
         
         <Button variant="primary" className='but'>Go</Button>
       </Card.Body>
@@ -51,7 +51,10 @@ function Carte() {
 <Card style={{ width: '30vw',heigh: '30vw', backgroundColor:"#47476d" }}>
   <Card.Img variant="top" src={mvc} />
   <Card.Body>
-    <Card.Title>Framework <br></br>MVC</Card.Title>
+    {/* <div className='col'> */}
+
+    <h5 className='col'>Framework <br></br>MVC</h5>
+    {/* </div> */}
     
     <Button variant="primary" className='but'>Go</Button>
   </Card.Body>

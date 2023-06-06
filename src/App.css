@@ -418,7 +418,7 @@ html, .blur{
 .carte1{
   /* color: black; */
   /* font-size: 3vw; */
-  background-color: aqua;
+  /* background-color: aqua; */
   position: absolute;
   top: 35vw;
   left: -22vw;
@@ -449,10 +449,14 @@ html, .blur{
   /* position: absolute; */
   left: 1vw;
   top: 26vw;
+  font-size: 20vw;
   /* margin-left: -2vw; */
   text-align: center;
 }
-
+.col{
+  font-size: 3.5vw;
+  /* color: red; */
+}
 
 /* .carr{
   font-size: 1px;
