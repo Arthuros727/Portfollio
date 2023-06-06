@@ -573,7 +573,7 @@ textarea{
 .for{
   font-size: 5vw;
   position: absolute;
-  top: 200vw;
+  top: 220vw;
   left:45vw;
   color: rgb(147, 61, 61);
   
@@ -613,7 +613,7 @@ textarea{
 
 .send{
   /* position: relative; */
-  margin-left: 1.5vw;
+  margin-left: 0vw;
   margin-top: 2vw;
   
 }
@@ -621,7 +621,8 @@ textarea{
 .contact{
   color: white;
   position: absolute;
-  top: 180vw;
+  top: 200vw;
+  /* margin: 2vw; */
   left: 27vw;
   font-size: 10vw;
   font-family: "Oswald";
