@@ -445,10 +445,12 @@ html, .blur{
 
 }
 .card-title{
-  color: red;
   width: 26vw;
-  position: relative;
-  left: 0vw;
+  /* position: absolute; */
+  left: 1vw;
+  top: 26vw;
+  /* margin-left: -2vw; */
+  text-align: center;
 }
 
 
@@ -457,6 +459,7 @@ html, .blur{
 } */
 
 .but{
+  margin-top: 8vw;
   width: 20vw;
   padding-left: 5vw;
   font-size: 2vw;
