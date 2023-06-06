@@ -421,7 +421,7 @@ html, .blur{
   /* background-color: aqua; */
   position: absolute;
   top: 35vw;
-  left: -22vw;
+  left: -24vw;
   text-align: center;
 }
 
@@ -431,7 +431,7 @@ html, .blur{
   /* display: none; */
   position: absolute;
   top: 35vw;
-  left: 9.5vw;
+  left: 8.5vw;
 }
 
 .carte3{
