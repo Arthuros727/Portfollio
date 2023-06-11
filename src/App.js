@@ -32,8 +32,10 @@ function Carte() {
       <Card.Img variant="top" src={imgp4} />
       <Card.Body>
       <h5 className='col'>Puissance <br></br>4</h5>
-       
+      <a href='https://github.com/Arthuros727/Puissance4' target='blank' >
+
         <Button variant="primary" className='but'>Go</Button>
+        </a>
       </Card.Body>
     </Card>
     </div>
@@ -43,8 +45,10 @@ function Carte() {
       <Card.Img variant="top" src={om} />
       <Card.Body>
       <h5 className='col'>Jeu : <br></br>Osu!Mania</h5>
-        
+      <a href='https://github.com/Arthuros727/ProjectMania' target='blank' >
+
         <Button variant="primary" className='but'>Go</Button>
+        </a>
       </Card.Body>
     </Card>
     </div>
@@ -57,8 +61,10 @@ function Carte() {
 
     <h5 className='col'>Framework <br></br>MVC</h5>
     {/* </div> */}
-    
+    <a href='https://github.com/Arthuros727/my-MVC-Framework' target='blank' >
+
     <Button variant="primary" className='but'>Go</Button>
+    </a>
   </Card.Body>
 </Card>
 </div>
@@ -76,8 +82,11 @@ function Carou() {
           alt="First slide"
         />
         <Carousel.Caption>
+          <a href='https://github.com/Arthuros727/Puissance4' target='blank' >
+
           <h3 className='carou1'>Puissance 4</h3>
           <p className='carou1'>Grille modulable, customisation.</p>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -89,8 +98,11 @@ function Carou() {
         />
 
         <Carousel.Caption>
+        <a href='https://github.com/Arthuros727/ProjectMania' target='blank' >
+
           <h3 className='carou1'>Jeu de Rythme (js)</h3>
           <p className='carou1'>Reproduction du jeu : Osu! mania</p>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -102,10 +114,13 @@ function Carou() {
         />
 
         <Carousel.Caption>
+        <a href='https://github.com/Arthuros727/my-MVC-Framework' target='blank' >
+
           <h3 className='carou1'></h3>
           <p className='carou1'>
             Reproduction d'un framework php mvc from scratch
           </p>
+          </a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -150,8 +165,8 @@ function App() {
 
       <p className='job'>Web Developpeur</p>
       <a href='#e1' ><p className='about'>A propos de moi</p></a>
-      <p className='project'>Mes Projets</p>
-      <p className='call'>Me contacter</p>
+      <a href='#p4' ><p className='project'>Mes Projets</p></a>
+      <a href='#e3'> <p className='call'>Me contacter</p> </a>
       <a href={cv} download={cv}>
       <p className='moncv'>Mon CV</p>
 
@@ -196,7 +211,7 @@ function App() {
         </div>
       </div>
       <div className='mecontacter'>
-        <p className='contact'>Me Contacter</p>
+        <p className='contact' id='e3'>Me Contacter</p>
         <form action="https://public.herotofu.com/v1/49fdcbe0-046d-11ee-b0a7-9f000c4c1540" method="post" accept-charset="UTF-8" className='for'>
   <div>
     <label for="name" className='label'>Your Name</label>
