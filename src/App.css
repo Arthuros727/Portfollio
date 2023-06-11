@@ -395,6 +395,7 @@ textarea{
   color: white;
 }
 
+
 .project{
   /* font-family: 'Lobster', cursive;   */
   font-size: 3vw;
@@ -408,6 +409,18 @@ textarea{
 }
 
 .call{
+  /* font-family: 'Lobster', cursive;   */
+  font-size: 3vw;
+  transition: transform .2s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 18.5vw;
+  border-bottom: solid white 1px;
+  left: 67vw;
+  color: white;
+}
+
+.DLCV{
   /* font-family: 'Lobster', cursive;   */
   font-size: 3vw;
   transition: transform .2s;

@@ -14,6 +14,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import imgp4 from './puissance4.png';
 import om from './om.png';
 import mvc from './mvc.png';
+import cv from './ArthurGuerinCv.pdf';
 // import Card from 'react-bootstrap/Card';
 
 
@@ -150,6 +151,10 @@ function App() {
       <a href='#e1' ><p className='about'>A propos de moi</p></a>
       <p className='project'>Mes Projets</p>
       <p className='call'>Me contacter</p>
+      <a href={cv} download={cv}>
+      <p className='DLCV'>Mon CV</p>
+
+            </a>
 
 
 
