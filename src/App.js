@@ -15,6 +15,7 @@ import imgp4 from './puissance4.png';
 import om from './om.png';
 import mvc from './mvc.png';
 import cv from './ArthurGuerinCv.pdf';
+import tete from './tete.jpg';
 // import Card from 'react-bootstrap/Card';
 
 
@@ -152,7 +153,7 @@ function App() {
       <p className='project'>Mes Projets</p>
       <p className='call'>Me contacter</p>
       <a href={cv} download={cv}>
-      <p className='DLCV'>Mon CV</p>
+      <p className='moncv'>Mon CV</p>
 
             </a>
 
@@ -160,7 +161,7 @@ function App() {
 
       
       </div>
-
+{/* <img id='tete' src={tete}></img> */}
       <div className='aboutme'>
         <p className='aboutmetext' id='e1'>A propos de moi :</p>
         <div className='text'>

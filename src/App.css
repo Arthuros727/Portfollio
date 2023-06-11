@@ -72,6 +72,27 @@ html, .blur{
 .call:hover{
   transform: scale(1.2);
 }
+#tete{
+  position: absolute;
+  width: 10%;
+  top: 2%;
+  left: 80%;
+}
+.moncv{
+  /* font-family: 'Lobster', cursive;   */
+  font-size: 2vw;
+  transition: transform .2s;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 20.5vw;
+  border-bottom: solid white 1px;
+  left: 2vw;
+  color: white;
+}
+
+.moncv:hover{
+  transform: scale(1.2);
+}
 .html{
   /* height: 100%; */
   width: 70%;
@@ -357,6 +378,8 @@ textarea{
 
 
 }
+
+
 @media only screen and (max-width:1000px){
 
   .job{
@@ -420,7 +443,7 @@ textarea{
   color: white;
 }
 
-.DLCV{
+.moncv{
   /* font-family: 'Lobster', cursive;   */
   font-size: 3vw;
   transition: transform .2s;
