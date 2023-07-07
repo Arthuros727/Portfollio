@@ -313,10 +313,10 @@ textarea{
   top: 25vw;
   left: 33vw; */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  
+  margin-top: 4%;
   color: rgb(255, 255, 255);
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 4vw;
+  font-size: 2vw;
 }
 .quoteDown{
  
@@ -464,7 +464,7 @@ textarea{
   
   color: rgb(255, 255, 255);
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 7vw;
+  font-size: 4vw;
 }
 
 .blurIdea{

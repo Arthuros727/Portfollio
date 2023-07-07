@@ -159,7 +159,7 @@ function App() {
       <div className='blurIdea'>
 
       <p className='quoteUp'>"</p>
-      <p className='textQuote'>dkfjdlkfndpkfnpjiojpo <br></br> dlkddksjdlkssdlkjsdlkj</p>
+      <p className='textQuote'>Explorateur passionné du web, je crée des expériences digitales  uniques en tant que développeur Full Stack </p>
       <p className='quoteDown'>"</p>
       </div>
 
