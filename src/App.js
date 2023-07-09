@@ -16,6 +16,8 @@ import om from './om.png';
 import mvc from './mvc.png';
 import cv from './ArthurGuerinCv.pdf';
 import tete from './tete.jpg';
+import { useEffect } from 'react';
+import { useState } from 'react';
 // import Card from 'react-bootstrap/Card';
 
 
@@ -142,6 +144,72 @@ function Card1() {
   );
 }
 function App() {
+  let i = 0;
+  const [displayStyle, setDisplayStyle] = useState('none');
+  useEffect(() => {
+    let name = document.getElementById("name");
+    name.classList.add("nameanim")
+
+    let job = document.getElementById("job");
+    job.classList.add("jobanim")
+
+    let about = document.getElementById("about");
+    about.classList.add("aboutanim")
+
+    let project = document.getElementById("project");
+    project.classList.add("projectanim")
+
+    let call = document.getElementById("call");
+    call.classList.add("callanim")
+
+    let cv = document.getElementById("cv");
+    cv.classList.add("cvanim")
+
+    let txtq = document.getElementById("txtq");
+    txtq.classList.add("txtqanim")
+
+    let e1 = document.getElementById("e1");
+    e1.classList.add("e1anim")
+
+
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      // console.log(scrollY)
+      if(scrollY <= 1500){
+        let div = document.getElementById("oo");
+        div.classList.remove('animate2');
+        div.classList.add('animate');
+      }
+      if (scrollY >= 300) {
+        let div = document.getElementById("oo");
+        setDisplayStyle("inline");
+  
+        if (div) {
+          div.classList.add('animate');
+        }
+      }
+      if(scrollY >= 1100){
+        i++;
+        let div = document.getElementById("oo");
+        div.classList.remove('animate');
+        div.classList.add('animate2');
+        
+  
+      }
+
+
+       
+      
+       
+      
+    };
+  
+    window.addEventListener('scroll', handleScroll);
+  
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     
     <div className='blur'>
@@ -155,20 +223,20 @@ function App() {
       <img src={set} className='set'></img>
 
 
-      <p className='name'>Arthur Guerin</p>
+      <p className='name' id='name'>Arthur Guerin</p>
       <div className='blurIdea'>
 
       <p className='quoteUp'>"</p>
-      <p className='textQuote'>Explorateur passionné du web, je crée des expériences digitales  uniques en tant que développeur Full Stack </p>
+      <p className='textQuote' id='txtq'>Explorateur passionné du web, je crée des expériences digitales  uniques en tant que développeur Full Stack </p>
       <p className='quoteDown'>"</p>
       </div>
 
-      <p className='job'>Web Developpeur</p>
-      <a href='#e1' ><p className='about'>A propos de moi</p></a>
-      <a href='#p4' ><p className='project'>Mes Projets</p></a>
-      <a href='#e3'> <p className='call'>Me contacter</p> </a>
+      <p className='job' id='job'>Web Developpeur</p>
+      <a href='#e1' ><p className='about' id='about'>A propos de moi</p></a>
+      <a href='#p4' ><p className='project' id='project'>Mes Projets</p></a>
+      <a href='#e3'> <p className='call' id='call'>Me contacter</p> </a>
       <a href={cv} download={cv}>
-      <p className='moncv'>Mon CV</p>
+      <p className='moncv' id='cv'>Mon CV</p>
 
             </a>
 
@@ -177,8 +245,8 @@ function App() {
       
       </div>
 {/* <img id='tete' src={tete}></img> */}
-      <div className='aboutme'>
         <p className='aboutmetext' id='e1'>A propos de moi :</p>
+      <div className={`aboutme ${displayStyle}`} id='oo' style={{ display: displayStyle }}>
         <div className='text'>
         <img src={c} className='c'></img>
         <img src={trinity} className='trinity'></img>

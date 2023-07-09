@@ -20,9 +20,18 @@ html, .blur{
   font-size: 2vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 6vw;
+  top: -7vw;
   left: 2vw;
   color: white;
+  transition:  top 0.6s , bottom 0.5s ease;
+}
+
+
+
+
+
+.job.jobanim{
+  top: 6vw;
 }
 
 .about{
@@ -31,10 +40,15 @@ html, .blur{
   transition: transform .2s;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 10vw;
+  top: -10vw;
   border-bottom: solid white 1px;
   left: 2vw;
   color: white;
+  transition:  top 0.7s , bottom 0.5s ease;
+}
+
+.about.aboutanim{
+  top: 10vw;
 }
 
 .about:hover{
@@ -47,10 +61,16 @@ html, .blur{
   transition: transform .2s;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 13.5vw;
+  top: -15vw;
   border-bottom: solid white 1px;
   left: 2vw;
   color: white;
+  transition:  top 0.8s;
+}
+
+.project.projectanim{
+  top: 13.5vw;
+
 }
 
 .project:hover{
@@ -63,10 +83,15 @@ html, .blur{
   transition: transform .2s;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 17vw;
+  top: -20vw;
   border-bottom: solid white 1px;
   left: 2vw;
   color: white;
+  transition:  top 0.9s;
+}
+
+.call.callanim{
+  top: 17vw;
 }
 
 .call:hover{
@@ -84,10 +109,15 @@ html, .blur{
   transition: transform .2s;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 20.5vw;
+  top: -25vw;
   border-bottom: solid white 1px;
   left: 2vw;
   color: white;
+  transition:  top 1s;
+}
+
+.moncv.cvanim{
+  top: 20.5vw;
 }
 
 .moncv:hover{
@@ -313,10 +343,14 @@ textarea{
   top: 25vw;
   left: 33vw; */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin-top: 4%;
+  margin-top: -20%;
   color: rgb(255, 255, 255);
   font-family: 'Space Grotesk', sans-serif;
   font-size: 2vw;
+  transition:  margin-top 0.6s , bottom 0.5s ease;
+}
+.textQuote.txtqanim{
+  margin-top: 4%;
 }
 .quoteDown{
  
@@ -344,23 +378,55 @@ textarea{
   font-size: 4vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 1vw;
+  top: -5vw;
   left: 2vw;
   color: white;
   font-family: "Oswald";
+  transition:  top 0.5s ease, bottom 0.5s ease;
   /* font-size: 300%; */
 }
-
-.aboutme{
-    /* backdrop-filter: brightness(95%); */
-
-  color: white;
+.name.nameanim {
+  opacity: 1;
+  top: 1vw;
+  bottom: auto;
 }
+.aboutme{
+  position: absolute;
+    /* backdrop-filter: brightness(95%); */
+  display: none;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.5s ease, bottom 0.5s ease;
+  top: 100px;
+
+}
+
+
+
+.aboutme.animate {
+  opacity: 1;
+  top: 0;
+  bottom: auto;
+}
+
+.aboutme.animate2 {
+  opacity: 1;
+  top: -170px;
+  /* bottom: auto; */
+}
+
 .aboutmetext{
+  color: white;
   font-size: 4vw;
   font-family: "Oswald";
   position: absolute;
   left: 39vw;
+  transition:  top 0.7s ease;
+  top: 40%;
+}
+
+.aboutmetext.e1anim{
+top: 75%;
 }
 
 .carte1{
