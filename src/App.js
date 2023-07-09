@@ -144,9 +144,14 @@ function Card1() {
   );
 }
 function App() {
+ 
   let i = 0;
   const [displayStyle, setDisplayStyle] = useState('none');
+  
   useEffect(() => {
+    var w = window.innerWidth;
+
+    
     let name = document.getElementById("name");
     name.classList.add("nameanim")
 
@@ -170,16 +175,27 @@ function App() {
 
     let e1 = document.getElementById("e1");
     e1.classList.add("e1anim")
+if(w < 1000){
+  let div = document.getElementById("oo");
+  setDisplayStyle("inline");
 
+  
+    div.classList.add('animate');
+  
+}
 
     const handleScroll = () => {
       const scrollY = window.scrollY;
       // console.log(scrollY)
-      if(scrollY <= 1500){
+      
+
+        if(scrollY <= 1500){
         let div = document.getElementById("oo");
-        div.classList.remove('animate2');
-        div.classList.add('animate');
-      }
+          div.classList.remove('animate2');
+          div.classList.add('animate');
+        }
+      
+      if(w > 1000){
       if (scrollY >= 300) {
         let div = document.getElementById("oo");
         setDisplayStyle("inline");
@@ -187,8 +203,8 @@ function App() {
         if (div) {
           div.classList.add('animate');
         }
-      }
-      if(scrollY >= 1100){
+      }}
+      if(scrollY >= 1350){
         i++;
         let div = document.getElementById("oo");
         div.classList.remove('animate');
@@ -209,6 +225,7 @@ function App() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
+  
   }, []);
   return (
     
